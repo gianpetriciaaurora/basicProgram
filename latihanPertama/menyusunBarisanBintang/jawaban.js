@@ -1,3 +1,5 @@
 for (i = 0; i < 5; i++) { 
-    console.log('*')
+    var bintang = '';
+    bintang = '*';
+    console.log(bintang)
 }
