@@ -3,12 +3,14 @@
 // dan false jika sebaliknya. Jika kedua angka bernilai sama, function akan me-return -1.
 
 function bandingkanAngka(angka1, angka2) {
-    if (angka1 < angka2)
+    if (angka1 < angka2){
         return true;
-    else if(angka1 > angka2)
+    } else if(angka1 > angka2){
         return false
-    else
+    } else{
         return -1
+    }
+        
   }
   console.log(bandingkanAngka(5, 8)); // true
   console.log(bandingkanAngka(5, 3)); // false
