@@ -11,4 +11,4 @@ function processSentence(){
     + ', Alamat saya di ' + address + ' dan saya punya hobby yaitu ' + hobby;  
 
     return(fullSentence)
-} console.log(processSentence()); //
+} console.log(processSentence()); 
